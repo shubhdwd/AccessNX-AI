@@ -25,7 +25,7 @@ Traditional scanners only give you cryptic error codes. AccessNX provides:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/AccessNX.git](https://github.com/YOUR_USERNAME/AccessNX.git)
+git clone [(https://github.com/shubhdwd)/AccessNX.git](https://github.com/shubhdwd/AccessNX.git)
 cd AccessNX/backend
 ```
 ### 2. Install Dependencies
