@@ -1,10 +1,10 @@
-# 🚀 AccessNX - Next-Gen AI Accessibility Scanner
+#  AccessNX - Next-Gen AI Accessibility Scanner
 
 ![Node.js](https://img.shields.io/badge/Node.js-v18+-green) ![Puppeteer](https://img.shields.io/badge/Puppeteer-Headless_Chrome-blue) ![Axe-Core](https://img.shields.io/badge/Audit-Axe_Core-orange) ![AI](https://img.shields.io/badge/AI-Llama_3-purple)
 
 **AccessNX** is a high-performance backend engine that doesn't just find accessibility errors—it fixes them. By combining **Puppeteer** (for full DOM rendering) with **Groq AI**, it delivers instant, context-aware remediation for both developers and non-technical content editors.
 
-## 💡 Why AccessNX?
+##  Why AccessNX?
 Traditional scanners only give you cryptic error codes. AccessNX provides:
 1.  **Dual-Mode Solutions:**
     * **For Developers:** Copy-paste HTML/CSS code snippets.
@@ -12,7 +12,7 @@ Traditional scanners only give you cryptic error codes. AccessNX provides:
 2.  **Rendered DOM Scanning:** Detects issues in dynamic JavaScript apps (React, Vue) that static parsers miss.
 3.  **Zero Hallucinations:** Uses **Axe-core** for legally accurate detection and AI *only* for explanation and remediation.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Runtime:** Node.js & Express
 * **Browser Engine:** Puppeteer (Headless Chrome)
 * **Audit Engine:** Axe-Core (WCAG 2.1 Standard)
@@ -21,7 +21,7 @@ Traditional scanners only give you cryptic error codes. AccessNX provides:
 
 ---
 
-## 🚀 Getting Started Locally
+##  Getting Started Locally
 
 ### 1. Clone the Repository
 ```bash
@@ -45,7 +45,7 @@ npm start
 ```
 The server will start on http://localhost:5000
 
-## 🔑 Environment Variables Explained
+##  Environment Variables Explained
 This project relies on specific environment variables to handle the AI connection and the heavy browser automation.
 
 Create a file named .env in your backend folder and add these:
@@ -58,7 +58,7 @@ GROQ_API_KEY=gsk_your_actual_api_key_here
 PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
 ```
-## 📡 API Endpoints
+##  API Endpoints
 ```bash
 POST /api/scan
 ```
